@@ -1,0 +1,19 @@
+{
+  "key": "20_leakage_audit",
+  "title": "Data Leakage Audit",
+  "objective": "Identify features, split strategies, and preprocessing choices that could leak target or cohort information.",
+  "method": "Combined documentation review with empirical checks of missingness, site prevalence, and target-adjacent variables.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_20_leakage_audit_audit.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_20_leakage_audit_site_prevalence.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_20_leakage_audit_chart.png"
+  ],
+  "results": [
+    "Four leakage risks were identified: site leakage, site-coded missingness, procedure-adjacent variables, and random split optimism.",
+    "Site disease prevalence ranges from 36.05% to 93.50%."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "Leakage risk depends on the intended clinical prediction moment, which is not fully specified by the dataset."
+  ]
+}

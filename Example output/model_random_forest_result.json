@@ -1,0 +1,9 @@
+{
+  "model": "random_forest",
+  "accuracy": 0.808695652173913,
+  "precision": 0.8183556405353728,
+  "roc_auc": 0.8829583315407817,
+  "average_precision": 0.8801388934841181,
+  "cv_wall_seconds": 5.5434853000006115,
+  "inference_ms_per_200_rows": 44.05940000015107
+}

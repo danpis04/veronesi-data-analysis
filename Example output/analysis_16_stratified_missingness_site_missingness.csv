@@ -1,0 +1,53 @@
+source_site,feature,missing_percent
+Cleveland Clinic Foundation,age,0.0
+Hungarian Institute of Cardiology,age,0.0
+University Hospital Zurich Switzerland,age,0.0
+V.A. Medical Center Long Beach,age,0.0
+Cleveland Clinic Foundation,trestbps,0.0
+Hungarian Institute of Cardiology,trestbps,0.3401360544217687
+University Hospital Zurich Switzerland,trestbps,1.6260162601626018
+V.A. Medical Center Long Beach,trestbps,28.000000000000004
+Cleveland Clinic Foundation,chol,0.0
+Hungarian Institute of Cardiology,chol,7.8231292517006805
+University Hospital Zurich Switzerland,chol,0.0
+V.A. Medical Center Long Beach,chol,3.5000000000000004
+Cleveland Clinic Foundation,thalach,0.0
+Hungarian Institute of Cardiology,thalach,0.3401360544217687
+University Hospital Zurich Switzerland,thalach,0.8130081300813009
+V.A. Medical Center Long Beach,thalach,26.5
+Cleveland Clinic Foundation,oldpeak,0.0
+Hungarian Institute of Cardiology,oldpeak,0.0
+University Hospital Zurich Switzerland,oldpeak,4.878048780487805
+V.A. Medical Center Long Beach,oldpeak,28.000000000000004
+Cleveland Clinic Foundation,sex,0.0
+Hungarian Institute of Cardiology,sex,0.0
+University Hospital Zurich Switzerland,sex,0.0
+V.A. Medical Center Long Beach,sex,0.0
+Cleveland Clinic Foundation,cp,0.0
+Hungarian Institute of Cardiology,cp,0.0
+University Hospital Zurich Switzerland,cp,0.0
+V.A. Medical Center Long Beach,cp,0.0
+Cleveland Clinic Foundation,fbs,0.0
+Hungarian Institute of Cardiology,fbs,2.7210884353741496
+University Hospital Zurich Switzerland,fbs,60.97560975609756
+V.A. Medical Center Long Beach,fbs,3.5000000000000004
+Cleveland Clinic Foundation,restecg,0.0
+Hungarian Institute of Cardiology,restecg,0.3401360544217687
+University Hospital Zurich Switzerland,restecg,0.8130081300813009
+V.A. Medical Center Long Beach,restecg,0.0
+Cleveland Clinic Foundation,exang,0.0
+Hungarian Institute of Cardiology,exang,0.3401360544217687
+University Hospital Zurich Switzerland,exang,0.8130081300813009
+V.A. Medical Center Long Beach,exang,26.5
+Cleveland Clinic Foundation,slope,0.0
+Hungarian Institute of Cardiology,slope,64.62585034013605
+University Hospital Zurich Switzerland,slope,13.821138211382115
+V.A. Medical Center Long Beach,slope,51.0
+Cleveland Clinic Foundation,ca,1.3201320132013201
+Hungarian Institute of Cardiology,ca,98.9795918367347
+University Hospital Zurich Switzerland,ca,95.9349593495935
+V.A. Medical Center Long Beach,ca,99.0
+Cleveland Clinic Foundation,thal,0.6600660066006601
+Hungarian Institute of Cardiology,thal,90.47619047619048
+University Hospital Zurich Switzerland,thal,42.27642276422765
+V.A. Medical Center Long Beach,thal,83.0

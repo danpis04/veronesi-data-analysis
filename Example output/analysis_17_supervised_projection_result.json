@@ -1,0 +1,18 @@
+{
+  "key": "17_supervised_projection",
+  "title": "FreeViz-Style Supervised Projection Approximation",
+  "objective": "Create a supervised low-dimensional visualization of class separation using available tabular tooling.",
+  "method": "Used an LDA axis as a documented FreeViz-style supervised projection approximation and paired it with a PCA axis.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_17_supervised_projection_projection.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_17_supervised_projection_chart.png"
+  ],
+  "results": [
+    "The LDA axis is a documented FreeViz-style supervised projection approximation for the binary label.",
+    "LDA class-separation means: absent=-1.020, present=0.824."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "Projection includes the target during LDA fitting and is visualization-only, not an unbiased validation metric."
+  ]
+}

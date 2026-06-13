@@ -1,0 +1,6 @@
+feature,lower_fence,upper_fence,outlier_rows,outlier_percent
+age,27.5,79.5,0,0.0
+trestbps,90.0,170.0,27,2.93
+chol,109.875,376.875,23,2.5
+thalach,64.5,212.5,2,0.22
+oldpeak,-2.25,3.75,16,1.74

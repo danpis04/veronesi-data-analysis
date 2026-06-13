@@ -1,0 +1,17 @@
+feature,role,dtype,unique_values,missing_percent
+age,numeric_predictor,float64,50,0.0
+sex,categorical_or_ordinal_predictor,float64,2,0.0
+cp,categorical_or_ordinal_predictor,float64,4,0.0
+trestbps,numeric_predictor,float64,61,6.41304347826087
+chol,numeric_predictor,float64,217,3.260869565217391
+fbs,categorical_or_ordinal_predictor,float64,2,9.782608695652174
+restecg,categorical_or_ordinal_predictor,float64,3,0.21739130434782608
+thalach,numeric_predictor,float64,119,5.978260869565218
+exang,categorical_or_ordinal_predictor,float64,2,5.978260869565218
+oldpeak,numeric_predictor,float64,53,6.739130434782608
+slope,categorical_or_ordinal_predictor,float64,3,33.58695652173913
+ca,categorical_or_ordinal_predictor,float64,4,66.41304347826087
+thal,categorical_or_ordinal_predictor,float64,3,52.826086956521735
+num,ordinal_target,int64,5,0.0
+disease_binary,binary_target,int64,2,0.0
+source_site,cohort_identifier,str,4,0.0

@@ -1,0 +1,17 @@
+{
+  "key": "18_pca_projection",
+  "title": "PCA Numeric Embedding Projection",
+  "objective": "Visualize numeric feature structure and cohort/class overlap in two principal components.",
+  "method": "Imputed/scaled numeric predictors and generated a two-component PCA projection colored by disease status.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_18_pca_projection_projection.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_18_pca_projection_chart.png"
+  ],
+  "results": [
+    "PC1 explains 33.10% and PC2 explains 20.04% of scaled numeric variance."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "PCA uses only numeric variables and therefore omits major categorical predictors such as chest pain type."
+  ]
+}

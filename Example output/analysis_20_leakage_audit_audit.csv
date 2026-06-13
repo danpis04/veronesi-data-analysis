@@ -1,0 +1,5 @@
+risk,evidence,recommendation
+source_site leakage,Disease prevalence differs strongly by source site.,Report site-stratified metrics; consider leave-one-site-out validation.
+site-coded missingness,"ca, thal, slope, and cholesterol missing/zero patterns vary by cohort.",Fit preprocessing inside CV folds and avoid using missingness to claim transportable physiology without site validation.
+target-adjacent procedures,ca and thal are downstream diagnostic/procedure-like fields relative to simple screening use cases.,Define intended prediction time; test models with and without procedure-adjacent predictors.
+random split optimism,Records from all sites mixed into random folds can reward cohort recognition.,Use stratified CV as a baseline and site-held-out validation for external generalization.

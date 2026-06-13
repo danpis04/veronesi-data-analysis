@@ -1,0 +1,9 @@
+source_site,disease_binary,rows,percent_within_site
+Cleveland Clinic Foundation,0,164,54.12541254125413
+Cleveland Clinic Foundation,1,139,45.87458745874587
+Hungarian Institute of Cardiology,0,188,63.94557823129252
+Hungarian Institute of Cardiology,1,106,36.054421768707485
+University Hospital Zurich Switzerland,0,8,6.504065040650407
+University Hospital Zurich Switzerland,1,115,93.4959349593496
+V.A. Medical Center Long Beach,0,51,25.5
+V.A. Medical Center Long Beach,1,149,74.5

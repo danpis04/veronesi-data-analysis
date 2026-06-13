@@ -1,0 +1,18 @@
+{
+  "key": "15_clinical_ranges",
+  "title": "Clinical Range Validation",
+  "objective": "Check for impossible or suspicious clinical values and inconsistent coding.",
+  "method": "Applied clinically plausible hard-range checks for all processed fields.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_15_clinical_ranges_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_15_clinical_ranges_chart.png"
+  ],
+  "results": [
+    "2 validation rules flagged at least one row.",
+    "Cholesterol <=0 accounts for 172 rows; resting BP <=0 accounts for 1 row."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "The cholesterol issue is site-wide for Switzerland and likely represents missing-data coding."
+  ]
+}

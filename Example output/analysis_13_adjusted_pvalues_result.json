@@ -1,0 +1,17 @@
+{
+  "key": "13_adjusted_pvalues",
+  "title": "Multiple-Testing Adjusted P-Values",
+  "objective": "Control false-discovery risk in the exploratory feature-target screening table.",
+  "method": "Applied Benjamini-Hochberg adjustment to the unadjusted p-values from the screening analysis.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_13_adjusted_pvalues_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_13_adjusted_pvalues_chart.png"
+  ],
+  "results": [
+    "14 features remain significant at BH-adjusted q < 0.05.",
+    "Top adjusted feature is cp with q=9.85e-57."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates."
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "dataset_title": "UCI Heart Disease Databases",
+  "source_directory": "C:\\Users\\danie\\Downloads\\heart+disease",
+  "processed_modeling_files": {
+    "processed.cleveland.data": {
+      "site": "Cleveland Clinic Foundation",
+      "rows": 303,
+      "columns": 17,
+      "target_counts_num": {
+        "0": 164,
+        "1": 55,
+        "2": 36,
+        "3": 35,
+        "4": 13
+      },
+      "binary_target_counts": {
+        "0": 164,
+        "1": 139
+      },
+      "missing_cells": 6
+    },
+    "processed.hungarian.data": {
+      "site": "Hungarian Institute of Cardiology",
+      "rows": 294,
+      "columns": 17,
+      "target_counts_num": {
+        "0": 188,
+        "1": 106
+      },
+      "binary_target_counts": {
+        "0": 188,
+        "1": 106
+      },
+      "missing_cells": 782
+    },
+    "processed.switzerland.data": {
+      "site": "University Hospital Zurich Switzerland",
+      "rows": 123,
+      "columns": 17,
+      "target_counts_num": {
+        "0": 8,
+        "1": 48,
+        "2": 32,
+        "3": 30,
+        "4": 5
+      },
+      "binary_target_counts": {
+        "0": 8,
+        "1": 115
+      },
+      "missing_cells": 273
+    },
+    "processed.va.data": {
+      "site": "V.A. Medical Center Long Beach",
+      "rows": 200,
+      "columns": 17,
+      "target_counts_num": {
+        "0": 51,
+        "1": 56,
+        "2": 41,
+        "3": 42,
+        "4": 10
+      },
+      "binary_target_counts": {
+        "0": 51,
+        "1": 149
+      },
+      "missing_cells": 698
+    }
+  },
+  "combined_processed_shape": {
+    "rows": 920,
+    "columns": 16
+  },
+  "raw_folder_inventory": [
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\ask-detrano",
+      "name": "ask-detrano",
+      "size_bytes": 587,
+      "line_count": 36,
+      "preview": [
+        "1. variable 28: proto",
+        "   How do the values map to the indices?",
+        "     1. 25",
+        "     2. 50",
+        "     3. 75"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\bak",
+      "name": "bak",
+      "size_bytes": 6737,
+      "line_count": 200,
+      "preview": [
+        "63,1,4,140,260,0,1,112,1,3,2,?,?,2",
+        "44,1,4,130,209,0,1,127,0,0,?,?,?,0",
+        "60,1,4,132,218,0,1,140,1,1.5,3,?,?,2",
+        "55,1,4,142,228,0,1,149,1,2.5,1,?,?,1",
+        "66,1,3,110,213,1,2,99,1,1.3,2,?,?,0"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\cleve.mod",
+      "name": "cleve.mod",
+      "size_bytes": 23941,
+      "line_count": 324,
+      "preview": [
+        "% ======================================================================",
+        "% John Gennari",
+        "% 3/13/90",
+        "%",
+        "% This is Dr. Detrano's database modified to be a real MIXED dataset."
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\cleveland.data",
+      "name": "cleveland.data",
+      "size_bytes": 60669,
+      "line_count": 2982,
+      "preview": [
+        "1 0 63 1 -9 -9 -9",
+        "-9 1 145 1 233 -9 50 20",
+        "1 -9 1 2 2 3 81 0",
+        "0 0 0 0 1 10.5 6 13",
+        "150 60 190 90 145 85 0 0"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\costs\\heart-disease.cost",
+      "name": "heart-disease.cost",
+      "size_bytes": 185,
+      "line_count": 15,
+      "preview": [
+        "age:\t\t\t1.00",
+        "sex:\t\t\t1.00",
+        "cp:\t\t\t1.00",
+        "trestbps:\t\t1.00",
+        "chol:\t\t\t7.27"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\costs\\heart-disease.delay",
+      "name": "heart-disease.delay",
+      "size_bytes": 234,
+      "line_count": 14,
+      "preview": [
+        "age:\t\t\timmediate.",
+        "sex:\t\t\timmediate.",
+        "cp:\t\t\timmediate.",
+        "trestbps:\t\timmediate.",
+        "chol:\t\t\tdelayed."
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\costs\\heart-disease.expense",
+      "name": "heart-disease.expense",
+      "size_bytes": 279,
+      "line_count": 15,
+      "preview": [
+        "age:\t\t\t1.00,\t\t1.00",
+        "sex:\t\t\t1.00,\t\t1.00",
+        "cp:\t\t\t1.00,\t\t1.00",
+        "trestbps:\t\t1.00,\t\t1.00",
+        "chol:\t\t\t7.27,\t\t5.17"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\costs\\heart-disease.group",
+      "name": "heart-disease.group",
+      "size_bytes": 94,
+      "line_count": 11,
+      "preview": [
+        "A, B, C.",
+        "chol:\t\t\tA.",
+        "fbs:\t\t\tA.",
+        "thalach:\t\tB.",
+        "exang:\t\t\tC."
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\costs\\heart-disease.README",
+      "name": "heart-disease.README",
+      "size_bytes": 2558,
+      "line_count": 77,
+      "preview": [
+        "Test Costs for the heart-disease Data",
+        "-------------------------------------",
+        "Peter Turney",
+        "June 7, 1995",
+        "There are four files, in a C4.5-like format, that contain information"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\costs\\Index",
+      "name": "Index",
+      "size_bytes": 250,
+      "line_count": 8,
+      "preview": [
+        "Index of costs",
+        "02 Dec 1996      250 Index",
+        "05 Dec 1995     2558 heart-disease.README",
+        "05 Dec 1995      185 heart-disease.cost",
+        "05 Dec 1995      234 heart-disease.delay"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\heart-disease.names",
+      "name": "heart-disease.names",
+      "size_bytes": 10060,
+      "line_count": 245,
+      "preview": [
+        "Publication Request: ",
+        "   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>",
+        "   This file describes the contents of the heart-disease directory.",
+        "   This directory contains 4 databases concerning heart disease diagnosis.",
+        "   All attributes are numeric-valued.  The data was collected from the"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\hungarian.data",
+      "name": "hungarian.data",
+      "size_bytes": 62192,
+      "line_count": 2941,
+      "preview": [
+        "1254 0 40 1 1 0 0",
+        "-9 2 140 0 289 -9 -9 -9",
+        "0 -9 -9 0 12 16 84 0",
+        "0 0 0 0 150 18 -9 7",
+        "172 86 200 110 140 86 0 0"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\Index",
+      "name": "Index",
+      "size_bytes": 644,
+      "line_count": 19,
+      "preview": [
+        "Index of heart-disease",
+        "02 Dec 1996      644 Index",
+        "02 Dec 1996      dir costs",
+        "23 Jul 1996    11058 reprocessed.hungarian.data",
+        "14 Aug 1991     6737 bak"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\long-beach-va.data",
+      "name": "long-beach-va.data",
+      "size_bytes": 39892,
+      "line_count": 2001,
+      "preview": [
+        "1 0 63 1 1 1 1",
+        "-9 4 140 0 260 0 0 0",
+        "0 -9 0 1 1 22 85 0",
+        "0 1 0 0 5 4.5 -9 5",
+        "112 62 160 90 140 80 1 0"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\new.data",
+      "name": "new.data",
+      "size_bytes": 389771,
+      "line_count": 18492,
+      "preview": [
+        "1 15943882 63 1 -9 -9 -9",
+        "-27 1 145 1 233 -9 50 20",
+        "1 0 1 2 2 3 1981 0",
+        "0 0 0 0 1 10.5 6 13",
+        "150 60 190 90 145 85 0 0"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\processed.cleveland.data",
+      "name": "processed.cleveland.data",
+      "size_bytes": 18461,
+      "line_count": 303,
+      "preview": [
+        "63.0,1.0,1.0,145.0,233.0,1.0,2.0,150.0,0.0,2.3,3.0,0.0,6.0,0",
+        "67.0,1.0,4.0,160.0,286.0,0.0,2.0,108.0,1.0,1.5,2.0,3.0,3.0,2",
+        "67.0,1.0,4.0,120.0,229.0,0.0,2.0,129.0,1.0,2.6,2.0,2.0,7.0,1",
+        "37.0,1.0,3.0,130.0,250.0,0.0,0.0,187.0,0.0,3.5,3.0,0.0,3.0,0",
+        "41.0,0.0,2.0,130.0,204.0,0.0,2.0,172.0,0.0,1.4,1.0,0.0,3.0,0"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\processed.hungarian.data",
+      "name": "processed.hungarian.data",
+      "size_bytes": 10263,
+      "line_count": 294,
+      "preview": [
+        "28,1,2,130,132,0,2,185,0,0,?,?,?,0",
+        "29,1,2,120,243,0,0,160,0,0,?,?,?,0",
+        "29,1,2,140,?,0,0,170,0,0,?,?,?,0",
+        "30,0,1,170,237,0,1,170,0,0,?,?,6,0",
+        "31,0,2,100,219,0,1,150,0,0,?,?,?,0"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\processed.switzerland.data",
+      "name": "processed.switzerland.data",
+      "size_bytes": 4109,
+      "line_count": 123,
+      "preview": [
+        "32,1,1,95,0,?,0,127,0,.7,1,?,?,1",
+        "34,1,4,115,0,?,?,154,0,.2,1,?,?,1",
+        "35,1,4,?,0,?,0,130,1,?,?,?,7,3",
+        "36,1,4,110,0,?,0,125,1,1,2,?,6,1",
+        "38,0,4,105,0,?,0,166,0,2.8,1,?,?,2"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\processed.va.data",
+      "name": "processed.va.data",
+      "size_bytes": 6737,
+      "line_count": 200,
+      "preview": [
+        "63,1,4,140,260,0,1,112,1,3,2,?,?,2",
+        "44,1,4,130,209,0,1,127,0,0,?,?,?,0",
+        "60,1,4,132,218,0,1,140,1,1.5,3,?,?,2",
+        "55,1,4,142,228,0,1,149,1,2.5,1,?,?,1",
+        "66,1,3,110,213,1,2,99,1,1.3,2,?,?,0"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\reprocessed.hungarian.data",
+      "name": "reprocessed.hungarian.data",
+      "size_bytes": 11058,
+      "line_count": 295,
+      "preview": [
+        "40 1 2 140 289 0 0 172 0 0 -9 -9 -9 0",
+        "49 0 3 160 180 0 0 156 0 1 2 -9 -9 1",
+        "37 1 2 130 283 0 1 98 0 0 -9 -9 -9 0",
+        "48 0 4 138 214 0 0 108 1 1.5 2 -9 -9 3",
+        "54 1 3 150 -9 0 0 122 0 0 -9 -9 -9 0"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\switzerland.data",
+      "name": "switzerland.data",
+      "size_bytes": 24674,
+      "line_count": 1230,
+      "preview": [
+        "3001 0 65 1 1 1 1",
+        "-9 4 115 0 0 -9 -9 -9",
+        "0 -9 -9 0 1 9 85 0",
+        "1 1 0 1 12 8.3 -9 100",
+        "93 56 185 80 115 70 1 0"
+      ]
+    },
+    {
+      "path": "C:\\Users\\danie\\Downloads\\heart+disease\\WARNING",
+      "name": "WARNING",
+      "size_bytes": 407,
+      "line_count": 9,
+      "preview": [
+        "The file cleveland.data has been unfortunately messed up when we lost",
+        "node cip2 and loaded the file on node ics.  The file processed.cleveland.data",
+        "seems to be in good shape and is useable (for the 14 attributes situation).",
+        "I'll clean up cleveland.data as soon as possible.",
+        "Bad news: my original copy of the database appears to be corrupted."
+      ]
+    }
+  ],
+  "columns": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "num"
+  ],
+  "derived_columns": [
+    "disease_binary",
+    "source_site"
+  ],
+  "numeric_columns": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak"
+  ],
+  "categorical_columns": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal",
+    "source_site"
+  ],
+  "target_candidates": [
+    "num",
+    "disease_binary"
+  ],
+  "identifier_candidates": [
+    "source_site",
+    "source_file"
+  ],
+  "date_time_columns": [],
+  "duplicate_full_rows": 2,
+  "duplicate_rows_ignoring_site": 2,
+  "total_missing_cells": 1759,
+  "package_versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.0",
+    "sklearn": "1.9.0",
+    "scipy": "1.17.1",
+    "seaborn": "0.13.2"
+  },
+  "pipo": {
+    "population_patients": "Adult patients evaluated for heart disease at Cleveland, Hungarian, Swiss, and Long Beach VA clinical sites.",
+    "inputs_predictors": "Demographics, chest pain class, resting blood pressure, cholesterol, fasting blood sugar, resting ECG, maximum heart rate, exercise angina, ST depression/slope, fluoroscopy vessels, thalassemia stress-test category.",
+    "procedures_processes": "Clinical examination, laboratory cholesterol and fasting blood sugar, resting ECG, exercise testing, fluoroscopy/thalassemia-related assessment fields.",
+    "outcomes_endpoints": "num, an angiographic heart disease status from 0 to 4; binary disease presence derived as num > 0."
+  }
+}

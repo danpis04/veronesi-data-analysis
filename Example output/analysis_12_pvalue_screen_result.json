@@ -1,0 +1,17 @@
+{
+  "key": "12_pvalue_screen",
+  "title": "Feature-Target P-Value Screening",
+  "objective": "Screen each predictor for exploratory association with binary disease status.",
+  "method": "Used Mann-Whitney U tests for numeric variables and chi-square tests for categorical variables.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_12_pvalue_screen_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_12_pvalue_screen_chart.png"
+  ],
+  "results": [
+    "Smallest unadjusted p-value is for cp using Chi-square: p=7.04e-58."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "P-values are exploratory, unadjusted here, and sensitive to cohort/site imbalance."
+  ]
+}

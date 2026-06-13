@@ -1,0 +1,18 @@
+{
+  "key": "09_scatter_pairs",
+  "title": "Clinically Meaningful Numeric Scatterplots",
+  "objective": "Inspect age, maximum heart rate, cholesterol, blood pressure, and ST depression pair structure by disease class.",
+  "method": "Generated scatterplots for age vs thalach and trestbps vs chol, colored by binary disease status and styled by cohort.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_09_scatter_pairs_sample.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_09_scatter_pairs_chart.png"
+  ],
+  "results": [
+    "Age vs thalach shows lower maximum heart rates among many disease-present records.",
+    "Blood-pressure/cholesterol scatter is heavily affected by unavailable cholesterol in Swiss and Long Beach VA cohorts."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "Scatterplots are visual diagnostics only and should not be read as adjusted effects."
+  ]
+}

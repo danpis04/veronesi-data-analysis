@@ -1,0 +1,18 @@
+{
+  "key": "04_feature_inventory",
+  "title": "Feature Type Inventory",
+  "objective": "Classify columns into numeric, categorical, ordinal, target, and cohort-identifier roles.",
+  "method": "Used the dataset documentation and observed unique values/missingness to produce a feature-role inventory.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_04_feature_inventory_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_04_feature_inventory_chart.png"
+  ],
+  "results": [
+    "Inventory contains 16 modeled columns.",
+    "Numeric predictors: age, trestbps, chol, thalach, oldpeak.",
+    "Target candidates: `num` and `disease_binary`."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates."
+  ]
+}

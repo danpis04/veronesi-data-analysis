@@ -1,0 +1,9 @@
+{
+  "model": "regularized_logistic_regression",
+  "accuracy": 0.8054347826086956,
+  "precision": 0.83,
+  "roc_auc": 0.8833168418587087,
+  "average_precision": 0.8894791797352462,
+  "cv_wall_seconds": 0.15862399999969057,
+  "inference_ms_per_200_rows": 5.716399999982968
+}

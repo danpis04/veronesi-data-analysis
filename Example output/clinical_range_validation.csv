@@ -1,0 +1,15 @@
+feature,rule,flagged_rows,flagged_percent,source_site_breakdown
+age,age outside 18-100 years,0,0.0,{}
+sex,"sex outside {0,1}",0,0.0,{}
+cp,"cp outside {1,2,3,4}",0,0.0,{}
+trestbps,resting systolic BP <=0 or >300 mmHg,1,0.11,"{""V.A. Medical Center Long Beach"": 1}"
+chol,serum cholesterol <=0 or >800 mg/dl,172,18.7,"{""University Hospital Zurich Switzerland"": 123, ""V.A. Medical Center Long Beach"": 49}"
+fbs,"fbs outside {0,1}",0,0.0,{}
+restecg,"restecg outside {0,1,2}",0,0.0,{}
+thalach,maximum heart rate <=0 or >250 bpm,0,0.0,{}
+exang,"exang outside {0,1}",0,0.0,{}
+oldpeak,ST depression outside -5 to 10,0,0.0,{}
+slope,"slope outside {1,2,3}",0,0.0,{}
+ca,"ca outside {0,1,2,3}",0,0.0,{}
+thal,"thal outside {3,6,7}",0,0.0,{}
+num,"target num outside {0,1,2,3,4}",0,0.0,{}

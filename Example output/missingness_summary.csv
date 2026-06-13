@@ -1,0 +1,17 @@
+column,missing_count,missing_percent
+ca,611,66.41
+thal,486,52.83
+slope,309,33.59
+fbs,90,9.78
+oldpeak,62,6.74
+trestbps,59,6.41
+exang,55,5.98
+thalach,55,5.98
+chol,30,3.26
+restecg,2,0.22
+age,0,0.0
+cp,0,0.0
+disease_binary,0,0.0
+num,0,0.0
+sex,0,0.0
+source_site,0,0.0

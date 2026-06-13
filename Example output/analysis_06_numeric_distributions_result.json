@@ -1,0 +1,18 @@
+{
+  "key": "06_numeric_distributions",
+  "title": "Numeric Feature Distributions",
+  "objective": "Inspect univariate distributions for key numeric clinical predictors.",
+  "method": "Generated histograms/density overlays for age, resting blood pressure, cholesterol, maximum heart rate, and oldpeak.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_06_numeric_distributions_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_06_numeric_distributions_chart.png"
+  ],
+  "results": [
+    "Median age is 54.0 years.",
+    "Median maximum heart rate is 140.0 bpm."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "Cholesterol and blood-pressure zeros were excluded in clean numeric summaries."
+  ]
+}

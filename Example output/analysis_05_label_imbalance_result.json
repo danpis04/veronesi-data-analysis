@@ -1,0 +1,18 @@
+{
+  "key": "05_label_imbalance",
+  "title": "Label Imbalance Analysis",
+  "objective": "Assess binary and ordinal target imbalance overall and by cohort.",
+  "method": "Computed target counts, percentages, and imbalance ratios for `num` and `disease_binary`.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_05_label_imbalance_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_05_label_imbalance_chart.png"
+  ],
+  "results": [
+    "Binary classes are moderately imbalanced with ratio 1.24:1.",
+    "Ordinal class 4 is rare with 28 rows (3.04%)."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "Multiclass modeling would be limited by sparse severe-disease classes."
+  ]
+}

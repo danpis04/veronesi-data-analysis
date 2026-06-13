@@ -1,0 +1,17 @@
+{
+  "key": "10_correlation",
+  "title": "Numeric Correlation Heatmap",
+  "objective": "Measure linear associations among numeric variables and the binary target.",
+  "method": "Computed Pearson correlations after replacing physiologically impossible zero cholesterol and blood-pressure values with missing.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_10_correlation_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_10_correlation_chart.png"
+  ],
+  "results": [
+    "Strongest absolute numeric-target correlation is thalach at 0.395."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "Pearson correlation captures only linear pairwise association and ignores site confounding."
+  ]
+}

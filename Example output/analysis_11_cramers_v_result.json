@@ -1,0 +1,17 @@
+{
+  "key": "11_cramers_v",
+  "title": "Categorical Association Heatmap",
+  "objective": "Measure pairwise association strength among categorical predictors and target.",
+  "method": "Computed Cramer's V for categorical/ordinal fields using contingency tables.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_11_cramers_v_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_11_cramers_v_chart.png"
+  ],
+  "results": [
+    "Top categorical association with binary target is num (Cramer's V 1.000)."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "Cramer's V does not establish causality and includes missingness as an explicit category."
+  ]
+}

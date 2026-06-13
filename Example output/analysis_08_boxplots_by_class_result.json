@@ -1,0 +1,17 @@
+{
+  "key": "08_boxplots_by_class",
+  "title": "Numeric Boxplots By Disease Class",
+  "objective": "Compare numeric predictors between disease-absent and disease-present classes.",
+  "method": "Rendered boxplots of numeric features by the derived binary target.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_08_boxplots_by_class_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_08_boxplots_by_class_chart.png"
+  ],
+  "results": [
+    "Disease-present median thalach is 128.0 vs absent 151.0.",
+    "Disease-present median oldpeak is 1.1 vs absent 0.0."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates."
+  ]
+}

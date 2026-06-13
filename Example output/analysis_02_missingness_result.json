@@ -1,0 +1,18 @@
+{
+  "key": "02_missingness",
+  "title": "Missing-Value Matrix And Percentages",
+  "objective": "Measure missingness by feature and display the row-feature missing-value pattern.",
+  "method": "Computed missing counts/percentages and rendered a binary missingness matrix ordered by source site.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_02_missingness_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_02_missingness_chart.png"
+  ],
+  "results": [
+    "Total missing cells across analysis columns: 1759.",
+    "Most-missing feature is ca with 611 missing rows (66.41%)."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "Missingness is structured, not random-looking; complete-case analysis would discard much of the dataset."
+  ]
+}

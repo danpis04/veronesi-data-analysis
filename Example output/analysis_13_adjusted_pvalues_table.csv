@@ -1,0 +1,15 @@
+feature,feature_type,test,statistic,p_value,effect_summary,bh_adjusted_p,significant_at_0_05
+cp,categorical,Chi-square,268.3457473383063,7.036524877817212e-58,cramers_v=0.54,9.851134828944096e-57,True
+exang,categorical,Chi-square,187.9623366887178,1.5293158344924442e-41,cramers_v=0.452,1.070521084144711e-40,True
+source_site,categorical,Chi-square,157.381413099648,6.733034218106341e-34,cramers_v=0.414,3.142082635116292e-33,True
+oldpeak,numeric,Mann-Whitney U,50622.5,8.512669088720237e-32,disease_present_median_minus_absent_median=1.05,2.5272686947425633e-31,True
+thalach,numeric,Mann-Whitney U,135553.0,9.025959624080583e-32,disease_present_median_minus_absent_median=-23,2.5272686947425633e-31,True
+slope,categorical,Chi-square,142.0459888831307,1.3686290263231624e-30,cramers_v=0.393,3.193467728087379e-30,True
+thal,categorical,Chi-square,109.02731664675427,1.7768741589905486e-23,cramers_v=0.344,3.553748317981097e-23,True
+sex,categorical,Chi-square,85.3612388986764,2.48545278620117e-20,cramers_v=0.305,4.3495423758520475e-20,True
+age,numeric,Mann-Whitney U,69330.0,1.288873276620284e-18,disease_present_median_minus_absent_median=6,2.004913985853775e-18,True
+ca,categorical,Chi-square,88.0258353664978,3.457561247705306e-18,cramers_v=0.309,4.8405857467874286e-18,True
+fbs,categorical,Chi-square,51.2527181890034,7.423584460230271e-12,cramers_v=0.236,9.448198403929435e-12,True
+chol,numeric,Mann-Whitney U,54939.5,0.0006970251866489597,disease_present_median_minus_absent_median=15,0.000813196051090453,True
+trestbps,numeric,Mann-Whitney U,80073.0,0.0012996234951253604,disease_present_median_minus_absent_median=0,0.0013995945332119265,True
+restecg,categorical,Chi-square,13.335198710270099,0.003965043762081492,cramers_v=0.12,0.003965043762081492,True

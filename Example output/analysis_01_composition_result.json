@@ -1,0 +1,18 @@
+{
+  "key": "01_composition",
+  "title": "Dataset Composition By Target And Site",
+  "objective": "Quantify row counts and disease prevalence by cohort/site and target class.",
+  "method": "Grouped the combined processed table by `source_site`, `num`, and `disease_binary`; visualized site-level class counts.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_01_composition_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_01_composition_chart.png"
+  ],
+  "results": [
+    "Combined table has 920 rows from 4 source sites.",
+    "Highest disease prevalence is University Hospital Zurich Switzerland at 93.50%; lowest is Hungarian Institute of Cardiology at 36.05%."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "Large site-level prevalence differences make cohort-stratified validation important."
+  ]
+}

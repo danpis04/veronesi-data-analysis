@@ -1,0 +1,17 @@
+{
+  "key": "07_categorical_frequencies",
+  "title": "Categorical Feature Frequencies",
+  "objective": "Summarize frequency patterns in clinically important categorical and ordinal predictors.",
+  "method": "Computed and plotted value counts for sex, chest pain type, fasting blood sugar, resting ECG, exercise angina, slope, ca, thal, and site.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_07_categorical_frequencies_table.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_07_categorical_frequencies_chart.png"
+  ],
+  "results": [
+    "Generated value counts for 9 categorical/ordinal fields.",
+    "Chest pain type and source site show strong class-relevant structure in later analyses."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates."
+  ]
+}

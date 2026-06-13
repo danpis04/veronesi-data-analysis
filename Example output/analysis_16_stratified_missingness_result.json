@@ -1,0 +1,18 @@
+{
+  "key": "16_stratified_missingness",
+  "title": "Stratified Missingness By Cohort And Target",
+  "objective": "Determine whether missing data patterns differ by site and disease class.",
+  "method": "Computed feature missingness percentages by source site and binary target, then rendered a cohort-feature heatmap.",
+  "outputs": [
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_16_stratified_missingness_site_missingness.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_16_stratified_missingness_target_missingness.csv",
+    "C:\\Users\\danie\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-heart\\outputs\\analysis_16_stratified_missingness_chart.png"
+  ],
+  "results": [
+    "Highest site-feature missingness is ca in V.A. Medical Center Long Beach at 99.00%."
+  ],
+  "warnings": [
+    "Missing values and site-level sampling differences may affect all estimates.",
+    "Site-specific missingness can let models infer cohort membership and indirectly exploit disease prevalence differences."
+  ]
+}
