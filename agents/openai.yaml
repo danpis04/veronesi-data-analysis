@@ -1,0 +1,4 @@
+interface:
+  display_name: "Veronesi Data Analysis"
+  short_description: "Flywheel-first medical CSV and .data analysis"
+  default_prompt: "Use $veronesi-data-analysis to analyze a medical CSV or .data dataset through Flywheel nodes."
